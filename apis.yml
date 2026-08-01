@@ -1,22 +1,60 @@
 aid: wikidocs
 name: Wikidocs
-description: Wikidocs is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Wikidocs was a real-time collaboration startup (wikidocs.io) that built a
+  framework for turning any web page into a live, editable, multi-user "docs"
+  service — enabling real-time content creation, editing, and sharing directly
+  in the browser without waiting for updated versions. Backed by Speedinvest,
+  the company was acquired by Atlassian in September 2014 and its collaboration
+  technology was folded into Atlassian's products. Wikidocs no longer operates
+  as an independent product: its former domain, wikidocs.io, is now a parked and
+  email-forwarded registrar domain with no live developer portal, API,
+  documentation, or machine-readable surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/wikidocs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - speedinvest
+x-status: acquired
+x-status-detail: Acquired by Atlassian in September 2014; standalone product discontinued.
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Collaboration
+- Real-Time
+- Documentation
+- Productivity
+- Acquired
+- SaaS
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wikidocs.png
 apis: []
+common:
+- type: Website
+  url: https://wikidocs.io
+- type: DomainSecurity
+  url: security/wikidocs-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
